@@ -14,3 +14,22 @@ if (condicionalFalse) {
 } else {
     console.log("Não");
 }
+
+// Exemplo com Resto de Divisão
+
+const numPar = 11;
+
+if (parseInt(numPar/2)*2 === numPar) {
+    console.log("Par");    
+} else {
+    console.log("Não");
+}
+
+if (numPar % 2 === 0) {
+    console.log("Par");    
+} else {
+    console.log("Não");
+}
+
+const ePar = (numPar % 2) === 0;
+console.log(ePar);
