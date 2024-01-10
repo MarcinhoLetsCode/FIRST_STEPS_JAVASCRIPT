@@ -9,9 +9,12 @@
 // Imprima No Console o Valor Que Será Gasto Para Realizar Esta Viagem.
 //
 
-let combustivel = 3;
-let gasto = 6;
-let distancia = 12;
+const combustivel = 3.59;
+const gasto = 6.2;
+const distancia = 12;
 
-console.log("Valor Em Reais: R$ " + (12/6)*3);
-console.log("Valor Em Reais: R$ " + (distancia/gasto)*combustivel);
+console.log("Valor Em Reais: R$ " + ((12/6.2)*3.59).toFixed(2));
+console.log("Valor Em Reais: R$ " + ((distancia/gasto)*combustivel).toFixed(2));
+
+const Valor = (distancia/gasto)*combustivel;
+console.log("Valor Em Reais: R$ " + Valor.toFixed(2));
