@@ -33,3 +33,12 @@ if (numPar % 2 === 0) {
 
 const ePar = (numPar % 2) === 0;
 console.log(ePar);
+console.log(!ePar);
+
+if (numPar % 2 === 0) {
+    console.log("Par");    
+} else if (numPar % 2 != 0){
+    console.log("Não");
+} else {
+    console.log("Algo Saiu Errado");
+}
