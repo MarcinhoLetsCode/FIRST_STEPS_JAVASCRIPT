@@ -25,4 +25,6 @@ if (pagamento === 1) {
     console.log('Valor a Pagar é: R$' + (valor + (valor * duasVezes)));
 } else if (pagamento === 4) {
     console.log('Valor a Pagar é: R$' + (valor + (valor * maisDuasVezes)));
+} else {
+    console.log('Pagamento Inválido!');
 }
