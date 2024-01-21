@@ -1,5 +1,3 @@
-
-
 function gets() {
     return 10;
 }
@@ -14,5 +12,12 @@ function print(texto) {
 //};
 //module.exports.gets = gets;
 
-module.exports = {gets, print};
+
+
+function sortear() {
+    const alunos = 5;
+    return Math.floor(Math.random() * (100 - 0 + 1)) + 0;
+}
+
+module.exports = {gets, print, sortear};
 
